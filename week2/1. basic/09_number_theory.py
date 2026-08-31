@@ -36,10 +36,8 @@ def gcd(a, b):
     """
     # TODO: 유클리드 호제법 구현
     # base case: b가 0이면 a 반환
-    # recursive를 이용
-    if b == 0 : return a
-    return gcd(b, a % b)
-    #pass
+    # recursive를 이용 
+    pass
 
 def gcd_iterative(a, b):
     """
@@ -53,10 +51,7 @@ def gcd_iterative(a, b):
     """
     # TODO: 반복문으로 구현
     # b가 0이 될 때까지 반복
-    while b != 0 :
-        b = a % b
-    return b
-    #pass
+    pass
 
 def lcm(a, b):
     """
@@ -69,8 +64,7 @@ def lcm(a, b):
         최소공배수
     """
     # TODO: LCM 계산
-    return a * b // gcd(a, b)
-    #pass
+    pass
 
 def extended_gcd(a, b):
     """
